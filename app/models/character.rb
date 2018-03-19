@@ -7,7 +7,7 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(show)
-    binding.pry
+
     self.show = show[:name]
 
     # jules_cobb = Character.new(:name => "Jules Cobb")
