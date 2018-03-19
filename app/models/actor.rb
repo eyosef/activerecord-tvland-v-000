@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
     return "#{self.first_name} #{self.last_name}"
   end
 
-  def actors=(actor)
+  def self.actors=(actor)
 
   end
 
