@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
 
   def build_network(asso)
     the_asso = Network.create(asso)
-    self.asso = the_asso
+    self.network = the_asso
 
     # asso = {:call_letters=>"Fox"}
   end
