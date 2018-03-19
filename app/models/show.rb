@@ -3,7 +3,7 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def build_network(asso)
-
+    binding.pry
   end
 
   # def build_show(show)
