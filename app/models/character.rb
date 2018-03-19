@@ -9,7 +9,6 @@ class Character < ActiveRecord::Base
   def build_show(show)
 
     Show.new.name = show
-
     self.show = show[:name]
 
     # jules_cobb = Character.new(:name => "Jules Cobb")
