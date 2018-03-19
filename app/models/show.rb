@@ -3,7 +3,12 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def build_network(asso)
-    
+
+  end
+
+  def build_show(show)
+    the_show = Show.create(show)
+    self.show = the_show
   end
 
 end
