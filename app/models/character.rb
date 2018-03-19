@@ -12,7 +12,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_network
-
   end
 
   malcolm.build_show
