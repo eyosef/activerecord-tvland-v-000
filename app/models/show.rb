@@ -4,6 +4,7 @@ class Show < ActiveRecord::Base
 
   def build_network(asso)
     binding.pry
+    # asso = {:call_letters=>"Fox"}
   end
 
   # def build_show(show)
