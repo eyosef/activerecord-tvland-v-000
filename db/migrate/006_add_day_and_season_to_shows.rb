@@ -1,2 +1,2 @@
-class AddDayAndSeasonToShows
+class AddDayAndSeasonToShows < ActiveRecord::Migration
 end
