@@ -11,6 +11,7 @@ class Character < ActiveRecord::Base
 
     the_show = Show.create
 
+
     Show.create[:name => show[:name]]
     self.show = show[:name]
 
