@@ -9,7 +9,7 @@ class Character < ActiveRecord::Base
   def build_show(show)
     the_show = Show.create(show)
     self.show = the_show
-
+    binding.pry
   end
 
 
