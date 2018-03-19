@@ -8,7 +8,7 @@ class Character < ActiveRecord::Base
 
   def build_show(show)
     binding.pry
-    self.show.name = show
+    self.show = show[:name]
   end
 
 end
