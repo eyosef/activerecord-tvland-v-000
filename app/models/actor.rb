@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
     return "#{self.first_name} #{self.last_name}"
   end
 
-  def actor=(actor)
+  def actors=(actor)
     binding.pry
   end
 
