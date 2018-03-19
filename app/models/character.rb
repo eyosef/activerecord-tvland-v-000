@@ -10,10 +10,10 @@ class Character < ActiveRecord::Base
   def build_show(show)
 
     the_show = Show.create(show)
-
+    
 
     Show.create[:name => show[:name]]
-    self.show = show[:name]
+    self.show = the_show
 
     # jules_cobb = Character.new(:name => "Jules Cobb")
     # jules_cobb.build_show(:name => "Cougar Town")
