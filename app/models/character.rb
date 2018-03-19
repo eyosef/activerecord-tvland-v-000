@@ -10,7 +10,7 @@ class Character < ActiveRecord::Base
   def build_show(show)
 
     the_show = Show.create
-
+    the_show.name = show[:name]
 
     Show.create[:name => show[:name]]
     self.show = show[:name]
