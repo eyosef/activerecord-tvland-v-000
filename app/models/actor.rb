@@ -7,12 +7,10 @@ class Actor < ActiveRecord::Base
     return "#{self.first_name} #{self.last_name}"
   end
 
-  def self.actors
-
+  def self.actor
   end
 
   def list_roles
-
   end
 
 end
