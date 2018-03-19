@@ -5,6 +5,7 @@ class Show < ActiveRecord::Base
   def build_network(asso)
     binding.pry
     the_asso = Network.create(asso)
+    self.asso = the_asso
 
     # asso = {:call_letters=>"Fox"}
   end
